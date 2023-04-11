@@ -7,10 +7,11 @@ const ItemList = ({data}) => {
         {data?.map((dato) => (
           <Item
             key={dato.id}
-            titulo={dato.titulo}
+            title={dato.titulo}
             descripcion={dato.descripcion}
             img={dato.img}
             link={dato.link}
+            price={dato.precio}
           />
         ))}
     </>
