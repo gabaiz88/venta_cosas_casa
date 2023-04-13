@@ -22,8 +22,8 @@ const ItemListContainer = () => {
   return (
     <>
       <div className="catalogue">
-        <ItemList data={data}/>
         <Card_Car/>
+        <ItemList data={data}/>
       </div>
     </>
   )
