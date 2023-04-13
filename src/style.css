@@ -27,9 +27,13 @@ body{
   color: red;
 }
 
-#card_car_title{
-  font-size: 50px;
+.black_letters{
+  color: #fff;
   background-color: black;
-  width: 900px;
-  margin-left: 120px;
+  width: 600px;
+  margin-left: 120px;  
+}
+
+.item_car img{
+  border-radius: 5px;
 }
