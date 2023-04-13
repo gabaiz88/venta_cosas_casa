@@ -1,5 +1,6 @@
 import data from "../data.json";
 import ItemList from "./ItemList";
+import Card_Car from "./Card_Car";
 
 const ItemListContainer = () => {
 
@@ -22,6 +23,7 @@ const ItemListContainer = () => {
     <>
       <div className="catalogue">
         <ItemList data={data}/>
+        <Card_Car/>
       </div>
     </>
   )
