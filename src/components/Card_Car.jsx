@@ -48,6 +48,56 @@ function CarouselFadeExample() {
           {/* <h2 className='black_letters'>FORD FIESTA 1.6 SE - 2017 - 41 MIL KMS</h2> */}
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item className='item_car'>
+        <img
+          className="d-block w-100"
+          src="https://firebasestorage.googleapis.com/v0/b/ventacosascasa-6149d.appspot.com/o/Fiesta%2FIMG_0864.jpg?alt=media&token=3d4dc02f-63c1-4d7c-8ba0-863691682419"
+          alt="Four slide"
+        />
+        <Carousel.Caption>
+          {/* <h2 className='black_letters'>FORD FIESTA 1.6 SE - 2017 - 41 MIL KMS</h2> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className='item_car'>
+        <img
+          className="d-block w-100"
+          src="https://firebasestorage.googleapis.com/v0/b/ventacosascasa-6149d.appspot.com/o/Fiesta%2FIMG_0868.jpg?alt=media&token=b408f72e-bede-485a-a210-6a9cb8ae87e8"
+          alt="Four slide"
+        />
+        <Carousel.Caption>
+          {/* <h2 className='black_letters'>FORD FIESTA 1.6 SE - 2017 - 41 MIL KMS</h2> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className='item_car'>
+        <img
+          className="d-block w-100"
+          src="https://firebasestorage.googleapis.com/v0/b/ventacosascasa-6149d.appspot.com/o/Fiesta%2FIMG_0869.jpg?alt=media&token=cc8a4004-06e8-456e-9305-86dffc707177"
+          alt="Four slide"
+        />
+        <Carousel.Caption>
+          {/* <h2 className='black_letters'>FORD FIESTA 1.6 SE - 2017 - 41 MIL KMS</h2> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className='item_car'>
+        <img
+          className="d-block w-100"
+          src="https://firebasestorage.googleapis.com/v0/b/ventacosascasa-6149d.appspot.com/o/Fiesta%2FIMG_0871.jpg?alt=media&token=660c4ec6-ba7a-425f-b728-b6e5d9650580"
+          alt="Four slide"
+        />
+        <Carousel.Caption>
+          {/* <h2 className='black_letters'>FORD FIESTA 1.6 SE - 2017 - 41 MIL KMS</h2> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className='item_car'>
+        <img
+          className="d-block w-100"
+          src="https://firebasestorage.googleapis.com/v0/b/ventacosascasa-6149d.appspot.com/o/Fiesta%2FIMG_0873.jpg?alt=media&token=dfcc5b25-ff82-44fb-9379-86f9f5ab7ccd"
+          alt="Four slide"
+        />
+        <Carousel.Caption>
+          {/* <h2 className='black_letters'>FORD FIESTA 1.6 SE - 2017 - 41 MIL KMS</h2> */}
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 }
