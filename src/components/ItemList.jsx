@@ -12,6 +12,7 @@ const ItemList = ({data}) => {
             img={dato.img}
             link={dato.link}
             price={dato.precio}
+            sold={dato.vendido}
           />
         ))}
     </>

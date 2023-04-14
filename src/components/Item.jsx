@@ -2,8 +2,8 @@ import { Button } from 'react-bootstrap';
 import Card from "react-bootstrap/Card";
 import format from "../functions/price_format"
 
-const Item = ({ title, descripcion, img, link, price }) => {
-  
+const Item = ({ title, descripcion, img, link, price, sold}) => {
+
   return (
     <div className='item'>
       <Card style={{ width: "20em", height:"670px" }}>
