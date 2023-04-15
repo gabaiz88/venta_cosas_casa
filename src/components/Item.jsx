@@ -5,11 +5,11 @@ import format from "../functions/price_format";
 
 const Item = ({ title, descripcion, img, link, price }) => {
 
-  function tachado(price) {
-    if (title != "Mesa") {
-      return <span id="tachado">{price}</span>
-    }
-  }
+  // function tachado(price) {
+  //   if (title != "Mesa") {
+  //     return <span id="tachado">{price}</span>
+  //   }
+  // }
 
   return (
     <div className="item">
@@ -19,7 +19,7 @@ const Item = ({ title, descripcion, img, link, price }) => {
           <Card.Title>{title}</Card.Title>
           <Card.Text>{descripcion}</Card.Text>
           <h4 className="card_price">{format(price)}.-</h4>
-          {tachado(price)}
+          {/* {tachado(price)} */}
           <a href={link} target="blank">
             <Button variant="primary">Más Fotos..</Button>
           </a>
