@@ -37,3 +37,11 @@ body{
 .item_car img{
   border-radius: 5px;
 }
+
+#text_titulo {  
+    font-size: 72px;  
+    background: -webkit-linear-gradient(left top, red, yellow);
+    background: linear-gradient(to bottom right, red, yellow);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;  
+  } 
