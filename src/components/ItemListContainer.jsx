@@ -7,12 +7,12 @@ const ItemListContainer = () => {
   return (
     <>
       <div className="catalogue">
-        <TituloPagina/>
-        <Card_Car/>
-        <ItemList data={data}/>
+        <TituloPagina />
+        <Card_Car />
+        <ItemList data={data} />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ItemListContainer
+export default ItemListContainer;

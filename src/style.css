@@ -5,10 +5,10 @@
   text-align: center;
 }
 
-body{
+body {
   background-color: #ffff;
 }
-.catalogue{
+.catalogue {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -17,31 +17,37 @@ body{
   gap: 20px;
 }
 
-.card_body{
+.card_body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.card_price{
+.card_price {
   color: red;
 }
 
-.black_letters{
+.black_letters {
   color: #fff;
   background-color: black;
   width: 600px;
-  margin-left: 120px;  
+  margin-left: 120px;
 }
 
-.item_car img{
+.item_car img {
   border-radius: 5px;
 }
 
-#text_titulo {  
-    font-size: 72px;  
-    background: -webkit-linear-gradient(left top, red, yellow);
-    background: linear-gradient(to bottom right, red, yellow);
-    -webkit-background-clip: text;  
-    -webkit-text-fill-color: transparent;  
-  } 
+#text_titulo {
+  font-size: 42px;
+  background: -webkit-linear-gradient(left top, red, yellow);
+  background: linear-gradient(to bottom right, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  #text_titulo {
+    font-size: 72px;
+  }
+}

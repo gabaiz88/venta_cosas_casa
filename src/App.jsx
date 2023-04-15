@@ -1,13 +1,12 @@
-import ItemListContainer from "./components/ItemListContainer"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemListContainer from "./components/ItemListContainer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-
   return (
     <>
-      <ItemListContainer/>
+      <ItemListContainer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
